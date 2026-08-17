@@ -10,7 +10,7 @@ cask "zimi" do
   desc "Offline knowledge server for ZIM files"
   homepage "https://github.com/epheterson/Zimi"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Zimi.app"
 
