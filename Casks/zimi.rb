@@ -1,9 +1,9 @@
 cask "zimi" do
   arch arm: "arm64", intel: "x64"
 
-  version "1.15.7"
-  sha256 arm:   "328b1254671e069c7c45d41ec8bc0d726615dcc3dcc8410af9d01deb512aa20c",
-         intel: "fd4b604979552bcd93734892768e67fa9adaf54194b2d37d4f41987d64e2d8e4"
+  version "1.16.0"
+  sha256 arm:   "2a2ffa9f2987d8f361a09009f7a5265cf3a74138164a9cd8a909cbbf7c25fd8a",
+         intel: "d18a993b3fcf890a6d21912287776c1cad0b50f8e7f22af5bd36514313fe8be9"
 
   url "https://github.com/epheterson/Zimi/releases/download/v#{version}/Zimi-#{version}-mac-#{arch}.dmg"
   name "Zimi"
